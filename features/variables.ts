@@ -28,3 +28,9 @@ const points: {a: number; b: number; c: string} = {
     b: 10,
     c: "Hello world"
 }
+
+//Functions
+
+const logNumbers: (i: number) => void = (i: number) => {
+    console.log(i)
+}
