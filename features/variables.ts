@@ -34,3 +34,10 @@ const points: {a: number; b: number; c: string} = {
 const logNumbers: (i: number) => void = (i: number) => {
     console.log(i)
 }
+
+//When to use annotation
+//1)  Funciton that returns the 'any' type
+
+const json  = '{"x": 10, "y": 20}'
+const coordinate: {x: number; y: number} = JSON.parse(json)
+console.log(coordinate) // {x:10, y: 20}
