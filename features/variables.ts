@@ -20,3 +20,11 @@ class Car {
 }
 
 let car: Car = new Car()
+
+//Object literals
+
+const points: {a: number; b: number; c: string} = {
+    a: 35,
+    b: 10,
+    c: "Hello world"
+}
