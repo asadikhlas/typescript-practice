@@ -51,3 +51,13 @@ for(let i = 0; i < words.length; i++ ){
         foundWords =  true
     }
 }
+
+//3) variable whose type cannot be inferred correctly
+let numbers:  number[] = [-10, -20, 5]
+let numberAboveZero: boolean | number = false
+
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] > 0){
+        numberAboveZero = numbers[i]
+    }
+}
