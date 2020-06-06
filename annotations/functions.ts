@@ -16,12 +16,12 @@ const multiply = (a: number, b: number):number => {
 
 //Destructuring
 
-const todaysWeather: {date: Date, weather: string} = {
+const todaysWeather: {date: Date; weather: string} = {
     date: new Date(),
     weather: 'Sunny'
 }
 
-const logWeather = ({date, weather}: {date: Date, weather: string}) => {
+const logWeather = ({date, weather}: {date: Date; weather: string}): void => {
     console.log(date)
     console.log(weather)
 }
