@@ -1,3 +1,4 @@
 import { User } from './User'
 
-console.log(User)
+const user = new User()
+console.log(user)
